@@ -5,7 +5,7 @@ description: "The personal and professional site of Ryan Wilson-Perkin."
 url: "http://ryanwilsonperkin.github.io"
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
 exclude: [README.md]
 timezone: America/New_York
