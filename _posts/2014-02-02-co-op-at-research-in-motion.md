@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: Co-op at Reseach In Motion
+title: Co-op at Research In Motion
 ---
 
 When I was in the fifth grade, I bought a copy of Interplay's "Learn to
