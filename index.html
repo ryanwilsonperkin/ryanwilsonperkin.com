@@ -2,7 +2,7 @@
 layout: default
 ---
 <section id="title">
-  <h1>Ryan Wilson-Perkin<h1>
+  <h1 class="title">Ryan Wilson-Perkin</h1>
 </section>
 <section id="posts">
   {% if site.posts %}
@@ -11,8 +11,8 @@ layout: default
     <div class="post">
       <li>
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt }}</p>
-        <p><a href="{{ post.url }}">Continue reading...</a></p>
+        {{ post.excerpt }}
+        <a href="{{ post.url }}">Continue reading...</a>
       </li>
     </div>
   {% endfor %}

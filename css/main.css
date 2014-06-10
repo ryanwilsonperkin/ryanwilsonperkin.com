@@ -1,15 +1,33 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  color: #444;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
   font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 1.618em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Sans Pro', sans-serif;
   color: #333;
+  margin-bottom: 0.25em;
 }
 
-h1 {
-  font-size: 2.618em;
+p {
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+p:last-child {
+  margin-bottom: 0;
 }
 
-h2 {
-  font-size: 1.618em;
+blockquote {
+  font-style: italic;
 }
 
 a {
@@ -20,16 +38,116 @@ a {
 a:visited {
   color: #428bca;
 }
+a:hover {
+  color: #428bca;
+}
+
+img {
+  max-width: 100% !important;
+  height: auto;
+  display: block;
+}
+
+.post {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 700px;
+}
+
+.post img {
+  margin: 0 auto;
+}
 
 #title {
   text-align: center;
 }
 
-#posts li {
+#posts ul {
   list-style-type: none;
+  padding: 0;
 }
 
-.post {
-  margin: 0 auto;
-  max-width: 700px;
+/* Large breakpoint - Desktop */
+@media only screen and (min-width: 769px) {
+  .title {
+    font-size: 3.5em;
+    line-height: 1.05em;
+  }
+  h1 {
+    font-size: 3em;
+    line-height: 1.05em;
+  }
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.25em;
+  }
+  h3 {
+    font-size: 1.75em;
+    line-height: 1.25em;
+  }
+  h4 {
+    font-size: 1.25em;
+    line-height: 1.22em;
+  }
+  blockquote {
+    font-size: 1.5em;
+    line-height: 1.4583em;
+  }
 }
+
+/* Medium breakpoint - Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .title {
+    font-size: 3em;
+    line-height: 1.125em;
+  }
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.125em;
+  }
+  h2 {
+    font-size: 2em;
+    line-height: 1.25em;
+  }
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+  h4 {
+    font-size: 1.125em;
+    line-height: 1.2222em;
+  }
+  blockquote {
+    font-size: 1.5em;
+    line-height: 1.4583em;
+  }
+}
+
+/* Small breakpoint - Phone */
+@media only screen and (max-width: 480px) {
+  .title {
+    font-size: 2.5em;
+    line-height: 1.25em;
+  }
+  h1 {
+    font-size: 2em;
+    line-height: 1.25em;
+  }
+  h2 {
+    font-size: 1.625em;
+    line-height: 1.1538em;
+  }
+  h3 {
+    font-size: 1.375em;
+    line-height: 1.1363em;
+  }
+  h4 {
+    font-size: 1.125em;
+    line-height: 1.1111em;
+  }
+  blockquote {
+    font-size: 1.25em;
+    line-height: 1.25em;
+  }
+}
+
