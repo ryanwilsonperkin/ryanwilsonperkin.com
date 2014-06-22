@@ -58,8 +58,31 @@ img {
   margin: 0 auto;
 }
 
+#navbar {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar ul li {
+  display: inline;
+}
+
+#navbar ul li:after {
+  content: " /";
+}
+
+#navbar ul li:last-child:after {
+  content: "";
+}
+
 #title {
   text-align: center;
+  text-transform: uppercase;
 }
 
 #posts ul {
