@@ -6,7 +6,7 @@ url: "http://ryanwilsonperkin.github.io"
 
 # Build settings
 markdown: redcarpet
-permalink: pretty
+permalink: /posts/:year/:month/:day/:title
 exclude: [README.md]
 timezone: America/New_York
 
