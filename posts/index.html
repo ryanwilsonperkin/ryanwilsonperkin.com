@@ -14,8 +14,8 @@ layout: default
   {% endif %}
     <li>
       <div class="post">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <strong class="date">Published {{ post.date | date: "%Y/%m/%d" }}</strong>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <small class="date">Published {{ post.date | date: "%Y/%m/%d" }}</small>
         {{ post.excerpt }}
         <a href="{{ post.url }}">Continue reading...</a>
       </div>
