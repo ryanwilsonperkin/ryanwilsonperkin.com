@@ -10,5 +10,3 @@ permalink: pretty
 exclude: [README.md]
 timezone: America/New_York
 
-# Plugins
-gems: [jekyll-sass]
