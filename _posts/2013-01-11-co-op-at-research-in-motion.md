@@ -3,7 +3,7 @@ layout: post
 title: Co-op at Research In Motion
 ---
 
-*This post was originally published on WordPress in November of 2013.*
+*This post was originally published on WordPress in January of 2013.*
 
 When I was in the fifth grade, I bought a copy of Interplay's "Learn to
 Program Basic" from a Scholastic magazine flier.
