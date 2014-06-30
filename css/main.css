@@ -106,14 +106,16 @@ section {
   text-transform: uppercase;
 }
 
-#firstname {
+#title h1 {
   margin-bottom: 0;
   font-size: 6em;
+  line-height: 1em;
 }
 
-#lastname {
+#title h2 {
   margin-top: -0.5em;
   font-size: 1.8em;
+  line-height: 1.25em;
 }
 
 #introduction {
