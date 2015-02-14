@@ -19,6 +19,9 @@ h6 {
 }
 
 blockquote {
+  margin-left: 0em;
+  border-left: 0.25em solid;
+  padding-left: 2em;
   font-style: italic;
 }
 
@@ -153,8 +156,8 @@ section {
     line-height: 1.22em;
   }
   blockquote {
-    font-size: 1.5em;
-    line-height: 1.4583em;
+    font-size: 1em;
+    line-height: 1.4em;
   }
 }
 
@@ -181,8 +184,8 @@ section {
     line-height: 1.2222em;
   }
   blockquote {
-    font-size: 1.5em;
-    line-height: 1.4583em;
+    font-size: 1em;
+    line-height: 1.4em;
   }
 }
 
@@ -209,8 +212,8 @@ section {
     line-height: 1.1111em;
   }
   blockquote {
-    font-size: 1.25em;
-    line-height: 1.25em;
+    font-size: 1em;
+    line-height: 1.4em;
   }
 }
 
