@@ -18,11 +18,28 @@ h6 {
   margin-bottom: 0.25em;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.625em;
+}
+
+h3 {
+  font-size: 1.375em;
+}
+
+h4 {
+  font-size: 1.125em;
+}
+
 blockquote {
   margin-left: 0em;
   border-left: 0.25em solid;
   padding-left: 2em;
   font-style: italic;
+  font-size: 1em;
 }
 
 a {
@@ -54,6 +71,10 @@ hr {
 section {
   max-width: 700px;
   margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5em;
 }
 
 .post {
@@ -136,27 +157,21 @@ section {
 /* Large breakpoint - Desktop */
 @media only screen and (min-width: 769px) {
   .title {
-    font-size: 3.5em;
     line-height: 1.05em;
   }
   h1 {
-    font-size: 3em;
     line-height: 1.05em;
   }
   h2 {
-    font-size: 2.25em;
     line-height: 1.25em;
   }
   h3 {
-    font-size: 1.75em;
     line-height: 1.25em;
   }
   h4 {
-    font-size: 1.25em;
     line-height: 1.22em;
   }
   blockquote {
-    font-size: 1em;
     line-height: 1.4em;
   }
 }
@@ -164,27 +179,21 @@ section {
 /* Medium breakpoint - Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .title {
-    font-size: 3em;
     line-height: 1.125em;
   }
   h1 {
-    font-size: 2.5em;
     line-height: 1.125em;
   }
   h2 {
-    font-size: 2em;
     line-height: 1.25em;
   }
   h3 {
-    font-size: 1.5em;
     line-height: 1.25em;
   }
   h4 {
-    font-size: 1.125em;
     line-height: 1.2222em;
   }
   blockquote {
-    font-size: 1em;
     line-height: 1.4em;
   }
 }
@@ -192,27 +201,21 @@ section {
 /* Small breakpoint - Phone */
 @media only screen and (max-width: 480px) {
   .title {
-    font-size: 2.5em;
     line-height: 1.25em;
   }
   h1 {
-    font-size: 2em;
     line-height: 1.25em;
   }
   h2 {
-    font-size: 1.625em;
     line-height: 1.1538em;
   }
   h3 {
-    font-size: 1.375em;
     line-height: 1.1363em;
   }
   h4 {
-    font-size: 1.125em;
     line-height: 1.1111em;
   }
   blockquote {
-    font-size: 1em;
     line-height: 1.4em;
   }
 }
