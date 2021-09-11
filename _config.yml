@@ -2,10 +2,10 @@
 title: Ryan Wilson-Perkin
 email: ryanwilsonperkin@gmail.com
 description: "The personal and professional site of Ryan Wilson-Perkin."
-url: "http://ryanwilsonperkin.github.io"
+url: "https://ryanwilsonperkin.com"
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: /posts/:year/:month/:day/:title
 exclude: [README.md]
 timezone: America/New_York
