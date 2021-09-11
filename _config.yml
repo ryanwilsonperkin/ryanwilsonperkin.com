@@ -3,6 +3,7 @@ title: Ryan Wilson-Perkin
 email: ryanwilsonperkin@gmail.com
 description: "The personal and professional site of Ryan Wilson-Perkin."
 url: "https://ryanwilsonperkin.com"
+image: /profile.jpg
 
 # Build settings
 markdown: kramdown
