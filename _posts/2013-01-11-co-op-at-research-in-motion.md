@@ -26,8 +26,6 @@ the-little-black-box, copy/pasting HTML, and (finally) Python.
 Hello, World.
 =============
 
-![](/img/co-op-at-research-in-motion/eyes.jpg)
-
 Computer Science in university is what I was after all along. Here I can
 spend long nights writing code with likeminded friends, making terrible
 jokes, and delivering software that I'm proud of. This will mark the
@@ -76,8 +74,6 @@ Enterprise. I worked for the latter half of the company. The Blackberry
 line of products has been an industry standard for years now,
 controlling a huge section of corporate devices that are trusted for
 their reliability and their security.
-
-![](/img/co-op-at-research-in-motion/blackberry-logo-background.jpg)
 
 RIM is spread out over a number of countries and towns, I undertook my
 work term at the main headquarters in Waterloo, ON. There are over 20
