@@ -95,10 +95,6 @@ section {
   margin: 0 auto;
 }
 
-.date {
-  color: darkgrey;
-}
-
 #navbar {
   text-align: right;
   margin-top: 10px;
@@ -220,3 +216,34 @@ section {
   }
 }
 
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #CCC;
+    background-color: #292929;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #DDD;
+  }
+
+  a,
+  a:visited,
+  a:hover {
+    color: #479ce5;
+  }
+
+  img {
+    opacity: 0.75;
+    transition: opacity 0.25s ease-in-out;
+  }
+
+  img:hover {
+    opacity: 1;
+  }
+}
